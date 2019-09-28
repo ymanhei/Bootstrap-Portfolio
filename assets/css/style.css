@@ -32,6 +32,34 @@ body {
     background-color: #4CAF50;
   }
 
+  h4 {
+    float:right;
+  }
+
+  a {
+    color: #777777;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .imgbox{
+    position: relative;
+    display: inline-block;
+  }
+
+  .imgbox .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;   
+    text-align: center;
+    vertical-align: middle;
+    top: 75%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:#4aaaa5;
+    font-family: Arial,sans-serif;
+    color: #fff;
+    width: 100%;
+}
   /* header {
     background: #ffffff;
     height: 7%;
@@ -63,13 +91,9 @@ section {
   
   
 
-  h4 {
-    float:right;
-  }
   
-  a {
-    color: #999;
-  }
+  
+  
  
   a:link {
     text-decoration: blue;
